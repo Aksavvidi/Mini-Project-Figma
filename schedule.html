@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery Virtual Tour</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/schedule.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+            <input class="side-menu" type="checkbox" id="side-menu">
+            <label class="hamb" for="side-menu">
+            <span class="hamb-line"></span>
+            </label>
+        <header>
+             <img class="logo" src="./images/ARTpng.png" alt="Art-Gallery logo">
+        </header>
+        <header>
+            <a class="profile-avatar" href="./main.html"><img class="profile-avatar" src="./images/profile-avatar.jpg" alt= "Profile - Avatar"></a>
+        </header> 
+    </div>
+    <main class="schedule-page">
+        <h1 tabindex="0">Schedule virtual tour</h1>
+        <form action="#">
+            <div>   
+                <label for="country">Country</label>
+                <select name="Country" id="country"></select>
+            </div>
+            <div>
+                <label for="city">City</label>
+                <select name="City" id="city"></select>
+            </div>
+            <div>
+                <label for="gallery">Gallery</label>
+                <select name="Gallery" id="gallery"></select>
+            </div>
+        </form>
+        <div class="button-home" role="button">
+            <a  class="scheudule" href="./choice.html">Proceed to Purchase</a><br>
+            <a class="my-tour" href="./main.html">Back Home</a>
+        </div>
+        
+    </main>
+    <footer class="footer-art">
+        <div class="footer">
+            <div class="angle-left">
+                <i class="fa-sharp fa-solid fa-angle-left"></i>
+            </div>
+            <div class="elipses">
+                <i class="fa-solid fa-circle"></i>
+            </div>
+            <div class="square">
+                <i class="fa-solid fa-square"></i>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

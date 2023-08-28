@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery Virtual Tour</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/choice.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+            <input class="side-menu" type="checkbox" id="side-menu">
+            <label class="hamb" for="side-menu">
+            <span class="hamb-line"></span>
+            </label>
+        <header>
+             <img class="logo" src="./images/ARTpng.png" alt="Art-Gallery logo">
+        </header>
+        <header>
+            <a class="profile-avatar" href="./my_account.html"><img class="profile-avatar" src="./images/profile-avatar.jpg" alt= "Profile - Avatar"></a>
+        </header> 
+    </div>
+    <main class="choice-page">
+        <h1 tabindex="0">Your choice</h1>
+        <div class="choice-gallery">
+            <figure>
+                <img src="./images/totalcost.png" alt="Gallery of your choice" style="width:100%">
+                <figcaption>Total Cost 25€</figcaption>
+              </figure>
+
+        </div>
+        <h2>Purchase the tour</h2>
+        <form action="#">
+            <div>   
+                <label for="cardNumber">Card Number</label>
+                <input type="text" name="Card Number" id="card"></select>
+            </div>
+            <div>
+                <label for="expiration">Expiration</label>
+                <input type="date" name="Expiration" id="expire"></select>
+            </div>
+            <div>
+                <label for="cvv">CVV</label>
+                <input type="text" name="Cvv" id="cvv"></select>
+            </div>
+            <div>
+                <label for="cardHolder">Card Holder<br> Name</label>
+                <input type="text" name="holder" id="cardHolder"></select>
+            </div>
+            <div >
+                <label id="saveCard" for="save card">Save Card: </label>
+                <input type="checkbox" id="cardsave" name="saveCard">
+                
+            </div>
+            <div class="button-form" role="button">
+                <a class="button-form" href="./verify.html">Ok</a><br>
+            </div>
+        </form>
+        <div class="buttonedit" role="button">
+            <a class="buttonedit" href="./schedule.html">Edit Tour</a>
+        </div>
+        
+    </main>
+    <footer class="footer-art">
+        <div class="footer">
+            <div class="angle-left">
+                <i class="fa-sharp fa-solid fa-angle-left"></i>
+            </div>
+            <div class="elipses">
+                <i class="fa-solid fa-circle"></i>
+            </div>
+            <div class="square">
+                <i class="fa-solid fa-square"></i>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
