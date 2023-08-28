@@ -1,0 +1,37 @@
+.start-btn-pagr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color:#A388C8;
+}
+
+.btn-str-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 80px;
+    width: 390px;
+    height: 300px;
+    background-color: #F9F3F3;
+    border-radius: 10px;    
+}
+.btn-back {
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+
+.btn {
+    height: 50px;
+    background-color:rgb(246, 78, 51);
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+h1 {
+    color: rgb(163, 136, 200);
+}
+
+
+.button-home {
+    display: flex;
+    flex-direction: column;
+    width: 382px;
+    height: 152px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F9F3F3;
+    border: 2px solid #E2E3E3;
+    border-radius: 10px;
+    padding-left: 60px;
+    padding-top: 10px; 
+}
+.button-home > a {
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.scheudule {
+    background-color:rgb(246, 78, 51);
+}
+
+.my-tour {
+    background-color:rgb(129, 152, 219);
+}
+
+.recomfu {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(77, 33, 144);
+}
+
+.recommented {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    padding: 0px;
+    text-align: center;
+    width: 361px;
+    height: 321px;
+    border-width: 0px 3px 6px 2px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.recom-galery1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(../images/3500.png);
+    margin-bottom: 0px;
+}
+.recom-galery2 {
+    background-image: url(../images/173574689_1399851660365110_7646822684487742333_n.jpg);
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.recom-galery3 {
+    background-image: url(../images/Fitzpatrick-Cedric-Rivrain-7827-HD-2048x1365.jpg);
+    margin-left: 0px;
+    margin-top: 0px;
+}

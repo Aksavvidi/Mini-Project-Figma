@@ -1,0 +1,83 @@
+.favorite_page{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+h1 {
+    color: rgb(163, 136, 200);
+    text-align: center;
+}
+
+.unfin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 360px;
+    height: 160px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F9F3F3;
+    border: 2px solid #E2E3E3;
+    border-radius: 10px;
+}
+
+.history {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(77, 33, 144);
+}
+
+
+.myHistory {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    padding: 0px;
+    text-align: center;
+    width: 361px;
+    height: 301px;
+    border-width: 0px 3px 6px 2px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    border-radius: 10px;
+}
+.recom-gal {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(../images/gal.jpg);
+    margin-bottom: 0px;
+}
+.recom-gal1 {
+    background-image: url(../images/gal1.png);
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.recom-gal2 {
+    background-image: url(../images/gal2.png);
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.btnBack{
+    margin: 0px;
+    width: 180px;
+}
+
+.back {
+    position: absolute;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+    background-color:rgb(246, 78, 51);
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}

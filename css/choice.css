@@ -1,0 +1,83 @@
+.choice-page{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+h1 {
+    color: rgb(163, 136, 200);
+    margin: 0px;
+}
+
+.choice-gallery {
+    width: 400px;
+    left: 10px;
+    margin-left: 15px;
+    border-width: 1px 3px 4px 2px;
+    border-style: solid;
+    border-color: #E2E3E3;
+    border-radius: 10px;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: rgb(163, 136, 200); 
+     margin: 0px; 
+}
+
+h2 {
+    color: rgb(163, 136, 200);
+     margin: 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 391px;
+    height: 273px;
+    padding: 10px;
+    font-size: 16px ;
+    font-weight: bold;
+    border-width: 0px 3px 6px 2px;
+    border-style: solid;
+    border-color: #E2E3E3;
+    border-radius: 10px;
+}
+input {
+    text-align: center;
+    display: inline-block;
+    float: right; 
+    width: 250px;
+    height: 30px;
+    background-color: #D9D9D9;
+    border: none;
+}
+.buttonedit {
+    width: 140px;
+    height: 30px;
+    margin-top: 10px;
+    background-color:rgb(246, 78, 51);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.button-form {
+    width: 140px;
+    height: 30px;
+    background-color:rgb(129, 152, 219);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}

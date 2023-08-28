@@ -1,0 +1,63 @@
+.verify-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+h1 {
+    color: rgb(163, 136, 200);
+    margin: 0px;
+}
+h2 {
+    color: rgb(163, 136, 200);
+     margin: 0px;
+}
+.paragr {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.artsinart {
+    color: red;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 380px;
+    height: 200px;
+    background: #FFFFFF;
+    border-width: 1px 3px 4px 2px;
+    border-style: solid;
+    border-color: #E2E3E3;
+    border-radius: 10px;
+}
+
+.button-verify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 382px;
+    height: 250px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F9F3F3;
+    border: 2px solid #E2E3E3;
+    border-radius: 10px;
+}
+.button-verify > a {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-looks {
+    background-color:rgb(246, 78, 51);
+}
+.btn-tour {
+    background-color:rgb(129, 152, 219);
+}

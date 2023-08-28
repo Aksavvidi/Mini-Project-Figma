@@ -1,0 +1,75 @@
+.material-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+h1 {
+    color: rgb(163, 136, 200);
+}
+
+.print-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 390px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#F9F3F3;
+    
+}
+.print-area > button {
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    border:none;
+    cursor: pointer;
+}
+
+.pdf {
+    background-color:rgb(246, 78, 51);
+}
+
+.doc {
+    background-color:rgb(129, 152, 219);
+}
+
+h2 {
+    color: rgb(77, 33, 144);
+}
+
+.btn-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 390px;
+    height: 250px;
+    border-radius: 10px;
+    padding:20px;
+    background-color: #F9F3F3;
+}
+
+.btn-area > a {
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.back-tour {
+    background-color:rgb(129, 152, 219);
+}
+.back-home {
+    background-color:rgb(246, 78, 51);
+}
